@@ -3,9 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Döküman</title>
+    <title>porfolio</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link rel="stylesheet" href="./style/reset.css">
 </head>
 <body>
+  <a href="#" class="myName">Nazlı Bülbüloğlu</a> 
+      <header>       
+        <ul class="navbar">
+          <li><a href='/'>Ana Sayfa</a></li> 
+          <li><a href="about.html">Hakkımda</a></li> 
+          <li><a href="projects.html">Projelerim</a></li>
+          <li><a href="contact.html">İletişim</a></li>
+        </ul>        
+    </header>
+    <main>
+      <section id="welcome">
+        <h2>Hoş Geldiniz!</h2>
+<p>Ben Nazlı, bir web geliştiricisiyim. Burada sizlere, web tasarımı ve geliştirme alanında gerçekleştirdiğim projelerimi sunmaktan mutluluk duyuyorum. Aşağıda yer alan portföyümde, web projelerimi sunuyorum. Umarım projelerim sizlere ilham verir ve birlikte çalışmak için bir fırsat doğar. Teşekkür ederim!</p>
+      </section>
+      <div class="welcome-img" id="w-img">
+        <img src="./images/pexels-photo-1591060.jpeg" alt="web" >
+      </div>      
+      <section id="work">
+        <div class="container">
+          <h2>Çalışmalarım</h2>
+          <div class="projects">
+            <a href="#" class="project">
+              <img src="https://picsum.photos/200/300?random=1" alt="İş 1">
+              <div class="project-info">
+                <h3>proje 1 </h3>
+                
+              </div>
+            </a>
+            <a href="#" class="project">
+              <img src="https://picsum.photos/200/300?random=2" alt="İş 2">
+              <div class="project-info">
+                <h3>proje 2 </h3>
+                
+              </div>
+            </a>
+            <a href="#" class="project">
+              <img src="https://picsum.photos/200/300?random=3" alt="İş 3">
+              <div class="project-info">
+                <h3>proje 3 </h3>
+                
+              </div>
+            </a>
+            <a href="#" class="project">
+              <img src="https://picsum.photos/200/300?random=4" alt="İş 4">
+              <div class="project-info">
+                <h3>proje 4 </h3>
+                
+              </div>
+            </a>          
+          <div class="text-box">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quasi amet nemo culpa ipsa quas tempora quam nesciunt alias, recusandae, dignissimos dolorem . Quasi incidunt aliquam, dolores saepe illo ad eaque! Reprehenderit pariatur facere repellendus dolorem distinctio nostrum voluptates quaerat! Quaerat, neque? </p>
+          </div>
+        </div>
+        </div>
+      </section>
+      
+      <section id="contact">
+        <h2>İletişim</h2>
+        <form>
+          <label for="name">İsim:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">E-posta:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Mesaj:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Gönder</button>
+        </form>
+      </section>
+    </main>
+    
+    <footer>
+      <p>&copy; 2023 My Portfolio</p>
+    </footer>
     
 </body>
 </html>
