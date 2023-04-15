@@ -65,18 +65,78 @@
   
    .myName:hover {
     color:rgb(144,115,104);
-  }
-  div#w-img{    
-    background-color: #7d7d7d0d;
-    width: 100rem;
-  }
+    cursor:crosshair;
+   }
+
+  
    .welcome-img {    
     display:flex;
-    justify-content: center;
+    justify-content:center;
+    flex-direction:row-reverse;
     margin-top: 30px;
     width: 50%;
-    height: 400px;
-   
+    height:auto;     
+    width: 100rem;
+    position: relative;        
+   }
+
+
+  .social-icons {
+    position: absolute;
+    bottom: 10px; 
+    left: 50%; 
+    height: 45px;
+    transform: translateX(-50%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(25, 10, 10, 0.392);
+    border-radius:1%;
+    width: 100%;
+    gap: 100px;
+  }
+
+  .social-icon {
+
+    justify-content: center;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-color: #ffffff; 
+    font-size: 28px;    
+    color: #e34e08;    
+  }
+
+  .social-icon:hover {
+    background-color: rgb(236, 83, 236);
+    color: black;
+    animation: beat-fade 1s ease-in-out infinite;
+  }
+  
+  body > main > div > div > a:nth-child(1) > i{
+    display: flex;
+  }
+  body > main > div > div > a:nth-child(2) > i{
+    display: flex;
+  }
+  body > main > div > div > a:nth-child(3) > i{
+    display: flex;
+  }
+
+  @keyframes beat-fade {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    50% {
+      transform: scale(1.2);
+      opacity: 0.5;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
   }
 
    main {    
@@ -87,27 +147,27 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
+   }
   
    section {    
     margin: 30px;
     text-align: center;
-  }
+   }
   
    section h2 {
     background-image: linear-gradient(to right, #7d7d7d17 50%, transparent 50%);
     font-size: 40px;
     margin-bottom: 20px;
     color:#5f4d12;
-  }
+   }
   
    section p {
     width: 100rem;
     font-size: 20px;
     color: #5f4d12;
-  } 
+   } 
 
-   #work {
+    #work {
     background-color: #ffffff;
     padding: 80px 0;
     }
@@ -121,7 +181,7 @@
     .projects {
     display: flex;
     flex-wrap: wrap;
-    justify-content:flex-start;
+    justify-content:space-around;
     margin-bottom: 60px;
     }
     
@@ -141,20 +201,17 @@
     width: 100%;
     height: auto;
     object-fit: cover;
-    }
-    
-    .project-info {
-    padding: 30px;
-    }
-    
+    }    
+ 
     .project-info h3 {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 10px;
     }
     
     .project-info p {
     font-size: 16px;
     line-height: 1.5;
+    display: contents;
     }
     
     .text-box {    
@@ -207,8 +264,7 @@
   }
   
   #hakkimda{
-    font-family: 'Montserrat', sans-serif;
-    
+    font-family: 'Montserrat', sans-serif;    
     font-size: larger;
     color: #424242;
   }
