@@ -8,10 +8,8 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     font: inherit;
     vertical-align: baseline;
     text-decoration: none;
-    box-sizing: border-box;
-    
-    font-family: 'Montserrat', sans-serif;  
-  
+    box-sizing: border-box;  
+    font-family: 'Montserrat', sans-serif; 
   }  
   
   article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -26,3 +24,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     border-collapse: collapse;
     border-spacing: 0;
   }
+
+  .fa,.fa-brands,.fa-classic,.fa-regular,.fa-sharp,.fa-solid,.fab,.far,.fas {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    /* display:var(--fa-display,inline-block); */
+    display: flex;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto
+}

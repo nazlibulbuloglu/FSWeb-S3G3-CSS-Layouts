@@ -7,72 +7,85 @@
     <link rel="stylesheet" href="./style/index.css">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comforter+Brush&display=swap" rel="stylesheet">
 </head>
 <body>
-  <a href="#" class="myName">Nazlı Bülbüloğlu</a> 
-      <header>       
+  <header>    
+      <a href="#" class="myName">Nazlı Bülbüloğlu</a>
+      <div class="menu-bar">         
         <ul class="navbar">
           <li><a href='/'>Ana Sayfa</a></li> 
           <li><a href="about.html">Hakkımda</a></li> 
           <li><a href="projects.html">Projelerim</a></li>
           <li><a href="contact.html">İletişim</a></li>
-        </ul>        
-    </header>
-    <main>
-      <section id="welcome">
-        <h2>Hoş Geldiniz!</h2>
+        </ul>  
+        <i class="fa-solid fa-bars"></i>
+    </div>
+  </header>  
+    <main>      
+        <section class="giris">
+          <h1>Hoşgeldiniz!</h1>
 <p>Ben Nazlı, bir web geliştiricisiyim. Burada sizlere, web tasarımı ve geliştirme alanında gerçekleştirdiğim projelerimi sunmaktan mutluluk 
   duyuyorum. Aşağıda yer alan portföyümde, web projelerimi sunuyorum. Umarım projelerim sizlere ilham verir ve birlikte çalışmak için bir fırsat
    doğar. <p>Teşekkür ederim!</p></p>
-      </section>
-      <div class="welcome-img">            
-        <img id="w-img" src="./images/portimg.png" alt="web" >
+        </section>
+  <section class="welcome">            
         <div class="social-icons">    
           <a href="#" title="instagram"><i class="fa-brands fa-instagram social-icon"></i></a>
           <a href="#" title="github"><i class="fa-brands fa-github-alt social-icon"></i></a>
           <a href="#" title="linkedIn"><i class="fa-brands fa-linkedin social-icon"></i></a>
-        </div>        
-      </div>      
-      <section id="work">
-        <div class="container">
+        </div>           
+  </section>     
+      <section class="work">       
           <h2>Çalışmalarım</h2>
           <div class="projects">
-            <a href="#" class="project">
-              <img src="https://picsum.photos/200/300?random=1" alt="İş 1">
-              <div class="project-info">
+            <div class="project">
+            <a href="#">
+              <div>
+              <img src="https://picsum.photos/200/300?random=1" alt="İş 1">              
                 <h3>E-ticaret </h3>
                 <p>Bu projemde, bir e-ticaret sitesi oluşturdum. Kullanıcılar, ürünleri arayabilir, sepetlerinde ürünleri saklayabilir, siparişlerini verebilir ve ödemelerini yapabilirler. Ayrıca, yöneticiler ürünlerin stok durumunu takip edebilirler.</p>                
               </div>
             </a>
-            <a href="#" class="project">
+          </div>
+            <div class="project">
+            <a href="#">
+              <div>
               <img src="https://picsum.photos/200/300?random=2" alt="İş 2">
-              <div class="project-info">
+              
                 <h3>Haber sitesi </h3> 
                 <p>Bu projemde, bir haber sitesi oluşturdum. Kullanıcılar, haberleri kategorilere göre arayabilir, yorum yapabilir ve haberleri paylaşabilirler. Ayrıca, yöneticiler haberleri düzenleyebilirler ve kullanıcı yorumlarını yönetebilirler.</p>               
               </div>
             </a>
-            <a href="#" class="project">
+          </div>
+            <div class="project">
+            <a href="#">
+              <div>
               <img src="https://picsum.photos/200/300?random=3" alt="İş 3">
-              <div class="project-info">
+              
                 <h3>Sosyal medya </h3> 
                 <p>Bu projemde, bir sosyal medya uygulaması oluşturdum. Kullanıcılar, arkadaşlarını ekleyebilir, paylaşımlar yapabilir, beğeniler ve yorumlar gönderebilirler. Ayrıca, yöneticiler kullanıcıların hesaplarını yönetebilirler.</p>               
               </div>
             </a>
-            <a href="#" class="project">
+          </div>
+            <div class="project">
+            <a href="#">
+              <div>
               <img src="https://picsum.photos/200/300?random=4" alt="İş 4">
-              <div class="project-info">
+              
                 <h3>İş yöbetimi uygulaması </h3> 
                 <p>Bu projemde, bir iş yönetimi uygulaması oluşturdum. Kullanıcılar, görevleri takip edebilir, yeni görevler ekleyebilir, görevlerin önceliklerini belirleyebilir ve tamamlandığında işaretleyebilir. Ayrıca, yöneticiler kullanıcıların görevlerini yönetebilirler.</p>               
               </div>
-            </a>          
-          <div class="text-box">
+            </a>
+          </div>          
+          <div class="project" id="text-box">
             <p> 
               Tüm projelerimde, modern web teknolojilerini kullanarak, responsive ve kullanıcı dostu arayüzler oluşturmayı hedefledim. Ayrıca, projelerimde güvenliği sağlamak için uygun önlemleri aldım.
               Bu projelerim, web geliştirme alanında yeteneklerimi ve yaratıcılığımı sergilemek için harika bir fırsat oldu. Umarım projelerim ilham verici olmuştur ve birlikte çalışmak için bir fırsat doğar. Teşekkür ederim! </p>
           </div>
-        </div>
-        </div>
+        </div>        
       </section>
       
       <section id="contact">
@@ -89,9 +102,9 @@
         </form>
       </section>
     </main>
-    
+  
     <footer>
-      <p>&copy; 2023 My Portfolio</p>
+      <p id="foot-p">&copy; 2023 My Portfolio</p>
     </footer>
     
 </body>
